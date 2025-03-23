@@ -3,7 +3,7 @@ from typing import List, Literal, Optional, Tuple, Union
 
 import torch
 
-from ..core import QuadraticPolynomial
+from ..core.quadratic_polynomial import QuadraticPolynomial
 
 
 class ABCModel(ABC, QuadraticPolynomial):
