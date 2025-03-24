@@ -1,6 +1,6 @@
 import torch
 
-from ..src.simulated_bifurcation.models import Markowitz
+from src.simulated_bifurcation.models import Markowitz
 
 
 def test_markowitz():
